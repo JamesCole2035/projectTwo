@@ -1,0 +1,52 @@
+@import "./content/content.css";
+@import "./content/_block/content__block.css";
+@import "./footer/footer.css";
+@import "./footer/_title/footer__title.css";
+@import "./header/header.css";
+@import "./header/_title/header__title.css";
+@import "./sidebar/sidebar.css";
+@import "./sidebar/_title/sidebar__title.css";
+@import "./sidebar/_block/sidebar__block.css";
+@import "./sidebar/__red/sidebar__block_red.css";
+@import "./sidebar/__green/sidebar__block_green.css";
+
+* {	
+    margin: 0;
+	padding: 0;	
+}
+body {
+    height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+.wrapper {	
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: chartreuse;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+}	
+.container {
+	max-width: calc(85% - 6%);
+	width: calc(100% - 200px - 6%);
+	margin: 1%;
+	background-color: skyblue;
+	height: auto;
+	order: 2;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+
+
+
+
+

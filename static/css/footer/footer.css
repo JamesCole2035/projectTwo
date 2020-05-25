@@ -1,0 +1,7 @@
+.footer {
+	width: calc(100% - 2%); 
+	height: 60px;  
+	order: 3;  
+	background-color: blue;
+	margin: 1%;
+}

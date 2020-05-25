@@ -1,0 +1,13 @@
+.sidebar {  	
+	order: 1;
+    width: 15%;
+	min-width: 200px;	
+    height: inherit;    
+	margin: 1%;
+	border: 1px solid rgba(0, 0,0, 0.2);
+	background-color: teal; 
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap; 
+	align-items: stretch;  
+}
